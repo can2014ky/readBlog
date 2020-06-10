@@ -9,8 +9,11 @@ home: true
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
+# bgImage: '/banner.jpg'
 bgImageStyle: {
-  height: '450px'
+  height: '450px',
+  backgroundSize: cover,
+  backgroundPosition: center,
 }
 isShowTitleInHome: false
 actionText: Guide
