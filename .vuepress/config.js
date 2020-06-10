@@ -3,25 +3,43 @@ module.exports = {
   description: '姜太公钓鱼，愿者上钩！',
   dest: 'public',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ['link', {
+      rel: 'icon',
+      href: '/favicon.ico'
+    }],
+    ['meta', {
+      name: 'viewport',
+      content: 'width=device-width,initial-scale=1,user-scalable=no'
+    }]
   ],
   theme: 'reco',
   themeConfig: {
-    nav: [
-      { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-      { text: '文档', 
-        icon: 'reco-message',
-        items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
-        ]
+    nav: [{
+        text: '首页',
+        link: '/',
+        icon: 'reco-home'
       },
-      { text: '关于', 
+      {
+        text: '时间线',
+        link: '/timeline/',
+        icon: 'reco-date'
+      },
+      {
+        text: '文档',
         icon: 'reco-message',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
-        ]
+        items: [{
+          text: 'vuepress-reco',
+          link: '/docs/theme-reco/'
+        }]
+      },
+      {
+        text: '关于',
+        icon: 'reco-message',
+        items: [{
+          text: 'GitHub',
+          link: 'https://github.com/recoluan',
+          icon: 'reco-github'
+        }]
       }
     ],
     sidebar: {
@@ -31,7 +49,7 @@ module.exports = {
         'plugin',
         'api'
       ]
-    },  
+    },
     type: 'blog',
     // 博客设置
     blogConfig: {
@@ -44,8 +62,7 @@ module.exports = {
         text: '标签' // 默认 “标签”
       }
     },
-    friendLink: [
-      {
+    friendLink: [{
         title: '午后南杂',
         desc: 'Enjoy when you can, and endure when you must.',
         email: '1156743527@qq.com',
@@ -58,6 +75,15 @@ module.exports = {
         link: 'https://vuepress-theme-reco.recoluan.com'
       },
     ],
+    locales: {
+      // 键名是该语言所属的子路径
+      // 作为特例，默认语言可以使用 '/' 作为其路径。
+      '/zh/': {
+        lang: 'zh-CN',
+        title: 'VuePress',
+        description: 'Vue 驱动的静态网站生成器'
+      }
+    },
     logo: '/avatar.jpg',
     // 搜索设置
     search: true,
@@ -96,4 +122,4 @@ module.exports = {
   markdown: {
     lineNumbers: true
   }
-}  
+}
