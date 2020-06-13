@@ -5,12 +5,12 @@ module.exports = [{
   },
   {
     text: '读书池',
-    link: '/docs/readingPool/',
+    link: '/readingPool/',
     icon: 'reco-other'
   },
   {
     text: '读书笔记',
-    link: '/docs/readNotes/',
+    link: '/readNotes/',
     icon: 'reco-suggestion'
   },
   {
@@ -27,7 +27,7 @@ module.exports = [{
   //   },
   {
     text: '关于',
-    link: '/blogs/关于/',
+    link: '/about/',
     icon: 'reco-message',
   }
 ];
