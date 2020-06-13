@@ -10,7 +10,7 @@ module.exports = [{
   },
   {
     text: '读书笔记',
-    link: '/blogs/readNotes/',
+    link: '/docs/readNotes/',
     icon: 'reco-suggestion'
   },
   {
