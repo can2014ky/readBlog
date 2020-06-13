@@ -8,5 +8,5 @@ module.exports = {
       "/docs/readingPool/",
       "/docs/readNotes/",
     ]
-  },
+  }
 }

@@ -29,10 +29,16 @@ module.exports = {
       text: '标签'
     },
   },
-  friendLink: [{
-    title: '新浪微博',
-    desc: 'can2014ky',
-    // avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-    link: 'https://weibo.com/u/3704641645?is_all=1'
-  }, ],
+  friendLink: [
+    {
+      title: '新浪微博',
+      desc: 'can2014ky',
+      // avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+      link: 'https://weibo.com/u/3704641645?is_all=1'
+    }
+  ],
+  pagination: {
+    // 每页文章数量
+    perPage: 5,
+  },
 }

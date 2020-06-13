@@ -12,5 +12,6 @@
     "vuepress-plugin-auto-sidebar": "^1.4.1",
     "vuepress-theme-reco": "1.4.5"
   },
-  "description": "read blog"
+  "description": "read blog",
+  "dependencies": {}
 }
