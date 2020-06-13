@@ -5,7 +5,7 @@ module.exports = [{
   },
   {
     text: '读书池',
-    link: '/blogs/readingPool/',
+    link: '/docs/readingPool/',
     icon: 'reco-other'
   },
   {
@@ -18,13 +18,13 @@ module.exports = [{
     link: '/timeline/',
     icon: 'reco-date'
   },
-//   { text: '文档', 
-//     icon: 'reco-message',
-//     items: [
-//       { text: 'vuepress-reco', link: '/docs/theme-reco/', icon: 'reco-github' },
-//       { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
-//     ]
-//   },
+  //   { text: '文档', 
+  //     icon: 'reco-message',
+  //     items: [
+  //       { text: 'vuepress-reco', link: '/docs/theme-reco/', icon: 'reco-github' },
+  //       { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
+  //     ]
+  //   },
   {
     text: '关于',
     link: '/blogs/关于/',

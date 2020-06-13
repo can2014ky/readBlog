@@ -1,10 +1,10 @@
 module.exports = {
-    "vuepress-plugin-auto-sidebar": {
-        titleMap: {
-            javascript: "介绍",
-          },
-          collapseList: [
-            "/blog/readingPool/"
-          ]
+  "vuepress-plugin-auto-sidebar": {
+    titleMap: {
+      "readingPool": "简介"
     },
+    collapseList: [
+      "/docs/readingPool/"
+    ]
+  },
 }
