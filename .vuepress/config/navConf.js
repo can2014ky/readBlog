@@ -21,16 +21,13 @@ module.exports = [{
 //   { text: '文档', 
 //     icon: 'reco-message',
 //     items: [
-//       { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+//       { text: 'vuepress-reco', link: '/docs/theme-reco/', icon: 'reco-github' },
+//       { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
 //     ]
 //   },
   {
     text: '关于',
+    link: '/blogs/关于/',
     icon: 'reco-message',
-    items: [{
-      text: 'GitHub',
-      link: 'https://github.com/recoluan',
-      icon: 'reco-github'
-    }]
   }
 ];

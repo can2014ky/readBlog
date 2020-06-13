@@ -4,7 +4,7 @@ const pluginConf = require('./config/pluginConf.js');
 const themeConf = require('./config/themeConf.js');
 
 module.exports = {
-  title: "以书会友",
+  title: "读书么？",
   description: '姜太公钓鱼，愿者上钩！',
   dest: 'public',
   head: headConf,

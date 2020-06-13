@@ -11,7 +11,7 @@ home: true
 # }
 # bgImage: '/banner.jpg'
 bgImageStyle: {
-  height: '450px',
+  height: '350px',
   backgroundSize: cover,
   backgroundPosition: center,
 }

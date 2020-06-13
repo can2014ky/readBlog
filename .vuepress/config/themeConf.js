@@ -4,8 +4,8 @@ module.exports = {
     type: 'blog',
     startYear: '2020',
     author: 'can2014ky',
-    logo: '/avatar.jpg',
-    authorAvatar: '/avatar.jpg',
+    logo: '/images/avatar.jpg',
+    authorAvatar: '/images/avatar.jpg',
     record: '京ICP备20200610号-6',
     search: true,
     searchMaxSuggestions: 10,
@@ -16,9 +16,9 @@ module.exports = {
         lineColor: '#42b983'
     },
     nav: navConf,
-    sidebar: {
-        '/docs/theme-reco/': [ '', 'theme', 'plugin', 'api' ],
-    },
+    // sidebar: {
+    //     '/docs/theme-reco/': [ '', 'theme', 'plugin', 'api' ],
+    // },
     blogConfig: {
         category: { location: 4, text: '分类' },
         tag: { location: 5, text: '标签' },
