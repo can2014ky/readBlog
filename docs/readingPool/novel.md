@@ -1,4 +1,4 @@
 ---
 title: 小说
 ---
-<HomeLayout></HomeLayout>
+<HomeLayout activeCategory="novel"></HomeLayout>

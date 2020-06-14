@@ -1,4 +1,4 @@
 ---
 title: 心理学
 ---
-<HomeLayout></HomeLayout>
+<HomeLayout activeCategory="psychology"></HomeLayout>
