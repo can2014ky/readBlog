@@ -420,7 +420,7 @@ export default {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
-  height: 5rem;
+  height: 8rem;
 }
 .info .time {
   margin: 0;
