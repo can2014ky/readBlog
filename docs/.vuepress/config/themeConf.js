@@ -16,9 +16,6 @@ module.exports = {
   //     lineColor: '#42b983'
   // },
   nav: navConf,
-  // sidebar: {
-  //     '/docs/theme-reco/': [ '', 'theme', 'plugin', 'api' ],
-  // },
   blogConfig: {
     category: {
       location: 4,
@@ -33,12 +30,11 @@ module.exports = {
     {
       title: '新浪微博',
       desc: 'can2014ky',
-      // avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+      logo: "/images/sina.jpg",
       link: 'https://weibo.com/u/3704641645?is_all=1'
     }
   ],
   pagination: {
-    // 每页文章数量
     perPage: 5,
   },
 }
