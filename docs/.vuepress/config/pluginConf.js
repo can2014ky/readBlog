@@ -1,12 +1,11 @@
 module.exports = {
   "vuepress-plugin-auto-sidebar": {
     titleMap: {
-      "readingPool": "简介",
-      "readNotes": "简介",
+      "readingPool": "读书池",
+      "readNotes": "读书笔记",
     },
     collapseList: [
-      "/docs/readingPool/",
-      "/docs/readNotes/",
+      "/readNotes/",
     ]
   }
 }
