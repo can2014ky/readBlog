@@ -37,4 +37,8 @@ module.exports = {
   pagination: {
     perPage: 5,
   },
+  valineConfig: {
+    appId: '3xI6figmWv5GVJUemrlqWcH5-gzGzoHsz',
+    appKey: 'QhUw08Kq0BPAfBjp869ztSoS',
+  }
 }
