@@ -72,6 +72,7 @@ export default {
     width: 9rem;
     min-width: 8.5rem;
     max-height: 12rem;
+    height: 100%;
   }
   .info {
     width: 11rem;
