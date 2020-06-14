@@ -26,14 +26,30 @@ module.exports = {
       text: '标签'
     },
   },
-  friendLink: [
-    {
-      title: '新浪微博',
-      desc: 'can2014ky',
-      logo: "/images/sina.jpg",
-      link: 'https://weibo.com/u/3704641645?is_all=1'
+  locales: {
+    '/': {
+      recoLocales: {
+        homeBlog: {
+          article: '美文', // 默认 文章
+          tag: '标识', // 默认 标签
+          category: '类别', // 默认 分类
+          friendLink: '友链' // 默认 友情链接
+        },
+        pagation: {
+          prev: '上一页',
+          next: '下一页',
+          go: '前往',
+          jump: '跳转至'
+        }
+      }
     }
-  ],
+  },
+  friendLink: [{
+    title: '新浪微博',
+    desc: 'can2014ky',
+    logo: "/images/sina.jpg",
+    link: 'https://weibo.com/u/3704641645?is_all=1'
+  }],
   pagination: {
     perPage: 5,
   },

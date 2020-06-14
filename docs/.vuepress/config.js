@@ -1,4 +1,3 @@
-
 const headConf = require('./config/headConf.js');
 const pluginConf = require('./config/pluginConf.js');
 const themeConf = require('./config/themeConf.js');
@@ -9,6 +8,11 @@ module.exports = {
   // dest: '.vuepress/dist',
   head: headConf,
   theme: 'reco',
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   themeConfig: themeConf,
   markdown: {
     lineNumbers: true
